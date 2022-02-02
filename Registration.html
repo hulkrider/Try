@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <p style="color:rgb(69, 141, 10); 
+font-size:49.9px;  
+font-weight:bold;
+text-align:center;">
+        Registration form
+</p>
+<form align="center">
+<pre><b>
+*First name: 	 <input type="text" name="FirstName" value="" placeholder="Name"required><br>
+ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle Name"><br>
+*Last name:	 <input type="text" name="LastName" value=""placeholder="Last Name" required><br>
+*Username: 	 <input type="text" id="usrname" name="usrname"placeholder="Username Name" required><br>
+*Email:          <input type="email" id="email" name="email" placeholder="Email" required><br>
+*Password: 	 <input type="password" name="psw" placeholder="Password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+<input type="submit" value="Submit" >  
+<br>
+<label style="color:red">* Must be filled out</label>
+</b>
+</style>
+</p>
+</pre>
+        <button type="button " class="cancelbtn " style="color:White">Cancel</button><br>
+        <br>
+        <span><a href="Login.html">Already registered?</a></span>
+        </div>
+    </form>
+    <div id="cursor" class="cursor--moved cursor--hidden" style="top: 231px; left: 1036px;"></div>
+    <script src="registration.js"></script>
+</body>
+
+</html>
